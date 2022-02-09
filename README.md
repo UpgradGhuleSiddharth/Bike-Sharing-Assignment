@@ -18,15 +18,14 @@ Consider a bike-sharing company that offers a service in which bikes are made av
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Based on the performance (R2 = 0.801) and using variable selection, 
-- I have chosen model_6 as the final model.
+- Based on the performance (R2 = 0.801) and using variable selection, I have chosen model_6 as the final model.
+- Base on the performance on the test set (R2 = 0.74), we have a decent model.
 - I have reduced the number of variables from 30 to 16 (almost ~50% reduction).
 - If we don't consider the dummy variables then we have only 9 unique variables in the final model.
 - 'temp', 'day_diff' and 'weathersit_3' are the top three features having most influence on the bike demand.
 - 'temp' is positively correlated with the bike demand, suggesting bike demand is higher during summer.
-- 'day_diff' shows that bike demand has an increasing trend with the time so company should increase the number of bikes every year.
-- 'weathersit_3' has a negative coefficient indicating a decrease in bike demand during
-- rainy and snowy weather, its because people tend to avoid travelling in rainy and snowy conditions.
+- 'day_diff' shows that the bike demand has an increasing trend with the time so company should increase the number of bikes every year.
+- 'weathersit_3' has a negative coefficient indicating a decrease in bike demand during bad weather such as rainy and snowy weather, its because people tend to avoid travelling in rainy and snowy conditions.
 - Humidity is high during rainy season and is  has negative coefficient supporting the previous observation.
 
 
