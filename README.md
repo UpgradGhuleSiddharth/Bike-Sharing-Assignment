@@ -16,7 +16,7 @@ Consider a bike-sharing company that offers a service in which bikes are made av
 
 - **Aim**: Which variables are significant in predicting the demand for shared bikes.
 
-- **Data**:Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
+- **Data**: Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
